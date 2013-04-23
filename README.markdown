@@ -434,7 +434,7 @@ For serious usage, though, you'll definitely want to define a custom _mapping_ f
 In this case, _only_ the defined model attributes are indexed. The `mapping` declaration creates the
 index when the class is loaded or when the importing features are used, and _only_ when it does not yet exist.
 
-You can define different [_analyzers_](http://www.elasticsearch.org/guide/reference/index-modules/analysis/index.html),
+You can define different [_analyzers_]http://www.elasticsearch.org/guide/reference/index-modules/analysis/),
 [_boost_](http://www.elasticsearch.org/guide/reference/mapping/boost-field.html) levels for different properties,
 or any other configuration for _elasticsearch_.
 
